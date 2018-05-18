@@ -30,3 +30,5 @@
 - name: "Re-run setup to use custom facts"
   setup: ~
 
+- debug: " {{ ansible_local }} "
+  
